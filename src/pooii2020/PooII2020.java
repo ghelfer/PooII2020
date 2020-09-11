@@ -55,7 +55,7 @@ public class PooII2020 {
         double y = 0;
         String s = "";
         while(x < 1) {
-            y = x*x + 2*Math.cos((Math.PI + x)/(Math.pow(x, 3))) + 1;
+            y = x*x + 2*Math.sin((Math.PI + x)/(Math.pow(x, 3))) + 1;
             s += (x + " " + y + "\n");            
             x +=0.001;
         }
